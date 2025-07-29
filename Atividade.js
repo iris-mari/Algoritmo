@@ -1,4 +1,4 @@
-4. 
+//4. //
 let anoNascimento = parseInt(prompt("Digite seu ano de nascimento:"));
 let anoAtual = new Date().getFullYear();
 let idade = anoAtual - anoNascimento;
@@ -9,7 +9,7 @@ if (idade >= 18) {
     alert("Você é menor de idade.");
 }
 
-5.
+//5.//
 let escolha = prompt("Digite 'C' para converter de Celsius para Fahrenheit ou 'F' para converter de Fahrenheit para Celsius:");
 
 if (escolha === "C" || escolha === "c") {
@@ -25,7 +25,7 @@ if (escolha === "C" || escolha === "c") {
 }
 
 
-6.
+//6.//
 let num1 = parseInt(prompt("Digite o primeiro número:"));
 let num2 = parseInt(prompt("Digite o segundo número:"));
 
